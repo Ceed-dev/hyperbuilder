@@ -8,7 +8,7 @@ export default function Hero() {
     <section className="w-full h-screen flex flex-col items-center justify-center text-center font-bold relative">
       {/* Central Hero Image */}
       <div className="flex-grow flex items-center justify-center">
-        <div className="relative w-full max-w-[1200px] mb-40">
+        <div className="relative w-full max-w-[1200px] mb-60 md:mb-40">
           <Image
             src="/logo-hyperliquid.svg"
             alt="Hero Object"
@@ -22,7 +22,7 @@ export default function Hero() {
       {/* Bottom Fixed Content */}
       <div className="w-full px-4 pb-20 absolute bottom-0 flex flex-col items-center">
         {/* Headline */}
-        <h1 className="flex flex-wrap items-center justify-center text-2xl sm:text-3xl md:text-4xl font-semibold text-[#072723] mb-4">
+        <h1 className="flex flex-wrap items-center justify-center text-4xl font-semibold text-[#072723] mb-4">
           <span>A home of</span>
           <Image
             src="/text-hyperliquid.svg"
