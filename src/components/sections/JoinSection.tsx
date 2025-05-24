@@ -4,7 +4,12 @@ import Image from "next/image";
 
 export default function JoinSection() {
   return (
-    <section className="w-full min-h-[calc(100vh-80px)] px-5 md:px-20 py-12">
+    <section
+      className="
+        w-full min-h-[calc(100vh-80px)] px-5 md:px-20 py-12
+        bg-[url('/section-join/bg-mobile.svg')] bg-cover bg-center
+        md:bg-[url('/section-join/bg-desktop.svg')]"
+    >
       {/* Section Title */}
       <div className="mb-8 text-[#072723] text-2xl sm:text-3xl md:text-4xl">
         <h2 className="font-bold">Join Hyperbuilder</h2>
