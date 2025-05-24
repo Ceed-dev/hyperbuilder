@@ -20,7 +20,7 @@ export default function Hero() {
       </div>
 
       {/* Bottom Fixed Content */}
-      <div className="w-full px-4 pb-20 absolute bottom-0 flex flex-col items-center">
+      <div className="w-full px-5 pb-20 absolute bottom-0 flex flex-col items-center">
         {/* Headline */}
         <h1 className="flex flex-wrap items-center justify-center text-4xl font-semibold text-[#072723] mb-4">
           <span>A home of</span>
