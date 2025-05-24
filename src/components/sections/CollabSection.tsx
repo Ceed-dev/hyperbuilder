@@ -2,7 +2,12 @@
 
 export default function CollabSection() {
   return (
-    <section className="w-full px-5 md:px-20 py-12 text-[#072723]">
+    <section
+      className="
+        w-full px-5 md:px-20 py-12 text-[#072723]
+        bg-[url('/collab/bg-mobile.svg')] bg-cover bg-center
+        md:bg-[url('/collab/bg-desktop.svg')]"
+    >
       <h2 className="text-center text-2xl sm:text-3xl md:text-4xl font-bold mb-8">
         Collab With Us
       </h2>
