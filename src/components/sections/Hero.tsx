@@ -5,7 +5,12 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="w-full h-screen flex flex-col items-center justify-center text-center font-bold relative">
+    <section
+      className="
+        w-full h-screen flex flex-col items-center justify-center text-center font-bold relative
+        bg-[url('/hero/bg-mobile.svg')] bg-cover bg-center
+        md:bg-[url('/hero/bg-desktop.svg')]"
+    >
       {/* Central Hero Image */}
       <div className="flex-grow flex items-center justify-center">
         <div className="relative w-full max-w-[1200px] mb-60 md:mb-40">
