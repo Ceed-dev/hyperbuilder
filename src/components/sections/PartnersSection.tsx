@@ -27,7 +27,12 @@ function PartnerBlock({ href, imgSrc, alt }: PartnerBlockProps) {
 
 export default function PartnersSection() {
   return (
-    <section className="w-full px-5 md:px-20 py-12">
+    <section
+      className="
+        w-full px-5 md:px-20 py-12
+        bg-[url('/section-partners/bg-mobile.svg')] bg-cover bg-center
+        md:bg-[url('/section-partners/bg-desktop.svg')]"
+    >
       <h2 className="text-[#072723] text-center text-2xl sm:text-3xl md:text-4xl font-bold mb-8">
         Partners
       </h2>
