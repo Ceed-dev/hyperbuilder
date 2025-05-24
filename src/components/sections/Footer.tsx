@@ -4,7 +4,12 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="w-full px-5 md:px-20 py-12 text-[#072723]">
+    <footer
+      className="
+        w-full px-5 md:px-20 py-12 text-[#072723]
+        bg-[url('/footer/bg-mobile.svg')] bg-cover bg-center
+        md:bg-[url('/footer/bg-desktop.svg')]"
+    >
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6">
         <div className="mb-4 md:mb-0">
           <p className="text-sm font-medium mb-2">Stay connected for more</p>
