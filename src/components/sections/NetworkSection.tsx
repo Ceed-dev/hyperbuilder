@@ -4,7 +4,12 @@ import Image from "next/image";
 
 export default function NetworkSection() {
   return (
-    <section className="w-full px-5 md:px-20 py-12">
+    <section
+      className="
+        w-full px-5 md:px-20 py-12
+        bg-[url('/section-network/bg-mobile.svg')] bg-cover bg-center
+        md:bg-[url('/section-network/bg-desktop.svg')]"
+    >
       {/* Section Title */}
       <div className="mb-8 text-[#072723] text-2xl sm:text-3xl md:text-4xl">
         <h2 className="font-bold">Our Network</h2>
