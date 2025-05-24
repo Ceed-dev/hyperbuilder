@@ -4,6 +4,7 @@ import JoinSection from "@/components/sections/JoinSection";
 import NetworkSection from "@/components/sections/NetworkSection";
 import PartnersSection from "@/components/sections/PartnersSection";
 import CollabSection from "@/components/sections/CollabSection";
+import Footer from "@/components/sections/Footer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <NetworkSection />
         <PartnersSection />
         <CollabSection />
+        <Footer />
       </main>
     </>
   );
