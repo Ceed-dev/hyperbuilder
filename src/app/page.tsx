@@ -3,6 +3,7 @@ import Hero from "@/components/sections/Hero";
 import JoinSection from "@/components/sections/JoinSection";
 import NetworkSection from "@/components/sections/NetworkSection";
 import PartnersSection from "@/components/sections/PartnersSection";
+import CollabSection from "@/components/sections/CollabSection";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <JoinSection />
         <NetworkSection />
         <PartnersSection />
+        <CollabSection />
       </main>
     </>
   );
