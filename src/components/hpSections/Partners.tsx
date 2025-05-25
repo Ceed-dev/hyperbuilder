@@ -29,7 +29,7 @@ export default function Partners() {
   return (
     <section
       className="
-        w-full px-5 md:px-20 py-12
+        w-full px-5 md:px-20 py-12 rounded-3xl
         bg-[url('/hp/partners/bg-mobile.svg')] bg-cover bg-center
         md:bg-[url('/hp/partners/bg-desktop.svg')]"
     >

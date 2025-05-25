@@ -6,7 +6,7 @@ export default function Join() {
   return (
     <section
       className="
-        w-full min-h-[calc(100vh-80px)] px-5 md:px-20 py-12
+        w-full min-h-[calc(100vh-80px)] rounded-3xl px-5 md:px-20 py-12
         bg-[url('/hp/join/bg-mobile.svg')] bg-cover bg-center
         md:bg-[url('/hp/join/bg-desktop.svg')]"
     >

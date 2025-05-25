@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <NavBar />
-      <main className="bg-[#AEFFEB]">
+      <main className="bg-white p-3 space-y-5">
         <Hero />
         <Join />
         <Network />

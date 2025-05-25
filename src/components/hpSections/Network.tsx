@@ -6,7 +6,7 @@ export default function Network() {
   return (
     <section
       className="
-        w-full px-5 md:px-20 py-12
+        w-full px-5 md:px-20 py-12 rounded-3xl
         bg-[url('/hp/network/bg-mobile.svg')] bg-cover bg-center
         md:bg-[url('/hp/network/bg-desktop.svg')]"
     >

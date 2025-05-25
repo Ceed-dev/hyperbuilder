@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section
       className="
-        w-full h-screen flex flex-col items-center justify-center text-[#072723] text-center font-bold relative
+        w-full h-screen flex flex-col items-center justify-center rounded-3xl text-[#072723] text-center font-bold relative
         bg-[url('/hp/hero/bg-mobile.svg')] bg-cover bg-center
         md:bg-[url('/hp/hero/bg-desktop.svg')]"
     >

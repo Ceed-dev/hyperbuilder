@@ -4,7 +4,7 @@ export default function Collab() {
   return (
     <section
       className="
-        w-full px-5 md:px-20 py-12 text-[#072723]
+        w-full px-5 md:px-20 py-12 text-[#072723] rounded-3xl
         bg-[url('/hp/collab/bg-mobile.svg')] bg-cover bg-center
         md:bg-[url('/hp/collab/bg-desktop.svg')]"
     >
