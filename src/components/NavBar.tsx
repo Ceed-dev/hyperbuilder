@@ -83,7 +83,7 @@ export default function NavBar() {
 
         {/* Mobile Menu Overlay (absolute box below navbar) */}
         {isMenuOpen && (
-          <div className="absolute top-full left-0 w-full bg-white/75 text-black rounded-b-3xl shadow-lg p-6 flex flex-col gap-4">
+          <div className="absolute top-full left-0 w-full bg-white/95 text-black rounded-b-3xl shadow-lg p-6 flex flex-col gap-4">
             <Link
               href="#"
               onClick={() => setIsMenuOpen(false)}
