@@ -15,10 +15,10 @@ export default function Footer() {
           <p className="text-sm font-medium mb-2">Stay connected for more</p>
           <div className="flex space-x-2">
             <a
-              href="https://x.com/Hyperbuilder"
+              href="https://x.com/hyperbuilder_hl"
               target="_blank"
               rel="noopener noreferrer"
-              className="border border-black rounded-md p-2 transition transform hover:-translate-y-1 hover:shadow-lg duration-300"
+              className="bg-[#D1EFE8] border border-black rounded-md p-2 transition transform hover:-translate-y-1 hover:shadow-lg duration-300"
             >
               <Image src="/icons/x-dark.svg" alt="X" width={24} height={24} />
             </a>
@@ -26,7 +26,7 @@ export default function Footer() {
               href="https://discord.com/invite/DP2Ykkwxxf"
               target="_blank"
               rel="noopener noreferrer"
-              className="border border-black rounded-md p-2 transition transform hover:-translate-y-1 hover:shadow-lg duration-300"
+              className="bg-[#D1EFE8] border border-black rounded-md p-2 transition transform hover:-translate-y-1 hover:shadow-lg duration-300"
             >
               <Image
                 src="/icons/discord-dark.svg"

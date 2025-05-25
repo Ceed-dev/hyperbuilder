@@ -21,7 +21,7 @@ export default function Network() {
         {/* Block 1 */}
         <div className="relative bg-[#D1EFE8] h-40 md:h-60 rounded-xl p-4 flex flex-col justify-end border-[#072723] border-2 overflow-hidden">
           {/* Icon */}
-          <div className="absolute right-0 top-0 w-1/2 h-full">
+          <div className="absolute right-0 -top-9 md:-top-4 w-1/2 h-full">
             <Image
               src="/hp/network/onboarding.svg"
               alt="Onboarding Background Shape"
@@ -51,7 +51,7 @@ export default function Network() {
         {/* Block 2 */}
         <div className="relative bg-[#3FF8CB] h-40 md:h-60 rounded-xl p-4 flex flex-col justify-end border-[#072723] border-2 overflow-hidden">
           {/* Icon */}
-          <div className="absolute right-0 top-0 w-1/2 h-full">
+          <div className="absolute right-0 md:-right-10 -top-3 w-1/2 h-full">
             <Image
               src="/hp/network/active-network.svg"
               alt="Network Background Shape"
@@ -61,7 +61,7 @@ export default function Network() {
           </div>
 
           {/* Text */}
-          <div className="relative z-10 flex flex-col sm:flex-row sm:items-end gap-3 w-full">
+          <div className="relative z-10 flex flex-row md:items-end gap-3 w-full">
             {/* Left */}
             <div>
               <span className="text-4xl sm:text-5xl md:text-6xl font-bold text-[#072723]">
@@ -87,7 +87,7 @@ export default function Network() {
         {/* Block 3 */}
         <div className="relative bg-[#3FF8CB] h-40 md:h-60 rounded-xl p-4 flex flex-col justify-center border-[#072723] border-2 overflow-hidden">
           {/* Icon */}
-          <div className="absolute right-0 top-0 w-1/2 h-full">
+          <div className="absolute right-0 md:-right-4 -top-6 md:top-0 w-1/2 h-full">
             <Image
               src="/hp/network/regional-hubs.svg"
               alt="Globe Background"
@@ -98,7 +98,7 @@ export default function Network() {
 
           {/* Text + Flags */}
           <div className="relative z-10 flex flex-col items-start">
-            <p className="text-lg sm:text-xl md:text-2xl font-medium text-[#072723] mb-2">
+            <p className="text-2xl md:text-4xl font-medium text-[#072723] mb-2">
               Regional hubs in
             </p>
             <div className="flex items-center gap-4">
@@ -109,7 +109,7 @@ export default function Network() {
                   alt="Vietnam Flag"
                   width={40}
                   height={40}
-                  className="w-10 h-10"
+                  className="w-12 h-12"
                 />
                 <span className="text-xs sm:text-sm text-[#072723] mt-1">
                   Vietnam
@@ -122,7 +122,7 @@ export default function Network() {
                   alt="Japan Flag"
                   width={40}
                   height={40}
-                  className="w-10 h-10"
+                  className="w-12 h-12"
                 />
                 <span className="text-xs sm:text-sm text-[#072723] mt-1">
                   Japan
@@ -135,7 +135,7 @@ export default function Network() {
                   alt="China Flag"
                   width={40}
                   height={40}
-                  className="w-10 h-10"
+                  className="w-12 h-12"
                 />
                 <span className="text-xs sm:text-sm text-[#072723] mt-1">
                   China
@@ -167,7 +167,7 @@ export default function Network() {
           </div>
 
           {/* Image */}
-          <div className="w-20 h-20 md:w-32 md:h-32 rounded-xl overflow-hidden">
+          <div className="w-24 h-24 md:w-40 md:h-40 rounded-xl overflow-hidden">
             <Image
               src="/hp/network/powered-by-ellies.svg"
               alt="Ellie's Character"

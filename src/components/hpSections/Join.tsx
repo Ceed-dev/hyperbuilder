@@ -21,7 +21,7 @@ export default function Join() {
         {/* Card 1 */}
         <div className="md:row-span-2 order-1 bg-[#072723] rounded-xl p-5 flex flex-col items-start justify-between">
           {/* Icon */}
-          <div className="w-full h-full bg-[#D1EFE8] rounded-xl p-10 flex justify-center items-center">
+          <div className="w-full h-full bg-[#D1EFE8] rounded-xl p-5 flex justify-center items-center">
             <Image
               src="/hp/join/onboarding.svg"
               alt="Hyperliquid Onboarding Icon"
@@ -46,7 +46,7 @@ export default function Join() {
         {/* Card 2 */}
         <div className="order-2 md:order-2 bg-[#D1EFE8] h-60 md:h-auto rounded-xl p-4 relative overflow-hidden flex items-end">
           {/* Icon */}
-          <div className="absolute top-0 left-0 w-2/3 h-2/3">
+          <div className="absolute -top-1 -left-8 w-2/3 h-2/3">
             <Image
               src="/hp/join/communication.svg"
               alt="Communication Icon"
@@ -69,7 +69,7 @@ export default function Join() {
         {/* Card 3 */}
         <div className="order-3 md:order-3 bg-[#072723] h-60 md:h-auto rounded-xl p-4 relative overflow-hidden flex items-end">
           {/* Icon */}
-          <div className="absolute top-0 right-0 w-2/3 h-2/3">
+          <div className="absolute -top-2 -right-7 w-2/3 h-2/3">
             <Image
               src="/hp/join/growth.svg"
               alt="Project Growth Icon"
@@ -93,7 +93,7 @@ export default function Join() {
         {/* Card 4 */}
         <div className="order-4 md:order-5 bg-[#D1EFE8] h-60 md:h-auto rounded-xl p-4 relative overflow-hidden flex items-end">
           {/* Icon */}
-          <div className="absolute top-0 right-0 w-2/3 h-2/3">
+          <div className="absolute top-0 -right-28 w-full h-full">
             <Image
               src="/hp/join/career.svg"
               alt="Career Paths Icon"
@@ -116,7 +116,7 @@ export default function Join() {
         {/* Card 5 */}
         <div className="order-5 md:order-4 bg-[#072723] h-60 md:h-auto rounded-xl p-4 relative overflow-hidden flex items-end">
           {/* Icon */}
-          <div className="absolute top-0 left-0 w-2/3 h-2/3">
+          <div className="absolute top-0 -left-12 w-2/3 h-2/3">
             <Image
               src="/hp/join/community.svg"
               alt="Regional Community Icon"
@@ -139,7 +139,7 @@ export default function Join() {
         {/* Card 6 */}
         <div className="md:col-span-3 order-6 md:order-6 bg-[#072723] h-60 rounded-xl p-4 relative overflow-hidden flex items-end">
           {/* Icon */}
-          <div className="absolute top-0 right-0 w-2/3 h-full">
+          <div className="absolute -top-24 md:top-0 right-0 w-2/3 h-full">
             <Image
               src="/hp/join/earnings.svg"
               alt="Insights Icon"
