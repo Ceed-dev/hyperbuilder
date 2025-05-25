@@ -8,14 +8,14 @@ export default function Hero() {
     <section
       className="
         w-full h-screen flex flex-col items-center justify-center text-center font-bold relative
-        bg-[url('/hero/bg-mobile.svg')] bg-cover bg-center
-        md:bg-[url('/hero/bg-desktop.svg')]"
+        bg-[url('/hp/hero/bg-mobile.svg')] bg-cover bg-center
+        md:bg-[url('/hp/hero/bg-desktop.svg')]"
     >
       {/* Central Hero Image */}
       <div className="flex-grow flex items-center justify-center">
         <div className="relative w-full max-w-[1200px] mb-60 md:mb-40">
           <Image
-            src="/logo-hyperliquid.svg"
+            src="/hp/hero/logo-hyperliquid.svg"
             alt="Hero Object"
             width={1200}
             height={1200}
@@ -30,7 +30,7 @@ export default function Hero() {
         <h1 className="flex flex-wrap items-center justify-center text-4xl font-semibold text-[#072723] mb-4">
           <span>A home of</span>
           <Image
-            src="/text-hyperliquid.svg"
+            src="/hp/hero/text-hyperliquid.svg"
             alt="Hyperliquid Icon"
             width={260}
             height={40}

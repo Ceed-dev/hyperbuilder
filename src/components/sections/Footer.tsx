@@ -7,8 +7,8 @@ export default function Footer() {
     <footer
       className="
         w-full px-5 md:px-20 py-12 text-[#072723]
-        bg-[url('/footer/bg-mobile.svg')] bg-cover bg-center
-        md:bg-[url('/footer/bg-desktop.svg')]"
+        bg-[url('/hp/footer/bg-mobile.svg')] bg-cover bg-center
+        md:bg-[url('/hp/footer/bg-desktop.svg')]"
     >
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-6">
         <div className="mb-4 md:mb-0">
@@ -46,7 +46,7 @@ export default function Footer() {
 
       <div className="w-full">
         <Image
-          src="/footer-hyperbuilder.svg"
+          src="/hp/footer/footer-hyperbuilder.svg"
           alt="Hyperbuilder"
           width={1000}
           height={200}

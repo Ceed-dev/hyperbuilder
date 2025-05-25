@@ -7,8 +7,8 @@ export default function JoinSection() {
     <section
       className="
         w-full min-h-[calc(100vh-80px)] px-5 md:px-20 py-12
-        bg-[url('/section-join/bg-mobile.svg')] bg-cover bg-center
-        md:bg-[url('/section-join/bg-desktop.svg')]"
+        bg-[url('/hp/join/bg-mobile.svg')] bg-cover bg-center
+        md:bg-[url('/hp/join/bg-desktop.svg')]"
     >
       {/* Section Title */}
       <div className="mb-8 text-[#072723] text-2xl sm:text-3xl md:text-4xl">
@@ -23,7 +23,7 @@ export default function JoinSection() {
           {/* Icon */}
           <div className="w-full h-full bg-[#D1EFE8] rounded-xl p-10 flex justify-center items-center">
             <Image
-              src="/section-join/onboarding.svg"
+              src="/hp/join/onboarding.svg"
               alt="Hyperliquid Onboarding Icon"
               width={100}
               height={100}
@@ -48,7 +48,7 @@ export default function JoinSection() {
           {/* Icon */}
           <div className="absolute top-0 left-0 w-2/3 h-2/3">
             <Image
-              src="/section-join/communication.svg"
+              src="/hp/join/communication.svg"
               alt="Communication Icon"
               fill
               className="object-contain"
@@ -71,7 +71,7 @@ export default function JoinSection() {
           {/* Icon */}
           <div className="absolute top-0 right-0 w-2/3 h-2/3">
             <Image
-              src="/section-join/growth.svg"
+              src="/hp/join/growth.svg"
               alt="Project Growth Icon"
               fill
               className="object-contain"
@@ -95,7 +95,7 @@ export default function JoinSection() {
           {/* Icon */}
           <div className="absolute top-0 right-0 w-2/3 h-2/3">
             <Image
-              src="/section-join/career.svg"
+              src="/hp/join/career.svg"
               alt="Career Paths Icon"
               fill
               className="object-contain"
@@ -118,7 +118,7 @@ export default function JoinSection() {
           {/* Icon */}
           <div className="absolute top-0 left-0 w-2/3 h-2/3">
             <Image
-              src="/section-join/community.svg"
+              src="/hp/join/community.svg"
               alt="Regional Community Icon"
               fill
               className="object-contain"
@@ -141,7 +141,7 @@ export default function JoinSection() {
           {/* Icon */}
           <div className="absolute top-0 right-0 w-2/3 h-full">
             <Image
-              src="/section-join/earnings.svg"
+              src="/hp/join/earnings.svg"
               alt="Insights Icon"
               fill
               className="object-contain"

@@ -7,8 +7,8 @@ export default function NetworkSection() {
     <section
       className="
         w-full px-5 md:px-20 py-12
-        bg-[url('/section-network/bg-mobile.svg')] bg-cover bg-center
-        md:bg-[url('/section-network/bg-desktop.svg')]"
+        bg-[url('/hp/network/bg-mobile.svg')] bg-cover bg-center
+        md:bg-[url('/hp/network/bg-desktop.svg')]"
     >
       {/* Section Title */}
       <div className="mb-8 text-[#072723] text-2xl sm:text-3xl md:text-4xl">
@@ -23,7 +23,7 @@ export default function NetworkSection() {
           {/* Icon */}
           <div className="absolute right-0 top-0 w-1/2 h-full">
             <Image
-              src="/section-network/onboarding.svg"
+              src="/hp/network/onboarding.svg"
               alt="Onboarding Background Shape"
               fill
               className="object-contain"
@@ -53,7 +53,7 @@ export default function NetworkSection() {
           {/* Icon */}
           <div className="absolute right-0 top-0 w-1/2 h-full">
             <Image
-              src="/section-network/active-network.svg"
+              src="/hp/network/active-network.svg"
               alt="Network Background Shape"
               fill
               className="object-contain"
@@ -89,7 +89,7 @@ export default function NetworkSection() {
           {/* Icon */}
           <div className="absolute right-0 top-0 w-1/2 h-full">
             <Image
-              src="/section-network/regional-hubs.svg"
+              src="/hp/network/regional-hubs.svg"
               alt="Globe Background"
               fill
               className="object-contain"
@@ -105,7 +105,7 @@ export default function NetworkSection() {
               {/* Vietnam */}
               <div className="flex flex-col items-center">
                 <Image
-                  src="/section-network/flag-vietnam.svg"
+                  src="/hp/network/flag-vietnam.svg"
                   alt="Vietnam Flag"
                   width={40}
                   height={40}
@@ -118,7 +118,7 @@ export default function NetworkSection() {
               {/* Japan */}
               <div className="flex flex-col items-center">
                 <Image
-                  src="/section-network/flag-japan.svg"
+                  src="/hp/network/flag-japan.svg"
                   alt="Japan Flag"
                   width={40}
                   height={40}
@@ -131,7 +131,7 @@ export default function NetworkSection() {
               {/* China */}
               <div className="flex flex-col items-center">
                 <Image
-                  src="/section-network/flag-china.svg"
+                  src="/hp/network/flag-china.svg"
                   alt="China Flag"
                   width={40}
                   height={40}
@@ -169,7 +169,7 @@ export default function NetworkSection() {
           {/* Image */}
           <div className="w-20 h-20 md:w-32 md:h-32 rounded-xl overflow-hidden">
             <Image
-              src="/section-network/powered-by-ellies.svg"
+              src="/hp/network/powered-by-ellies.svg"
               alt="Ellie's Character"
               width={112}
               height={112}

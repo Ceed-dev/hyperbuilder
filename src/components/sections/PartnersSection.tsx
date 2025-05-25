@@ -30,8 +30,8 @@ export default function PartnersSection() {
     <section
       className="
         w-full px-5 md:px-20 py-12
-        bg-[url('/section-partners/bg-mobile.svg')] bg-cover bg-center
-        md:bg-[url('/section-partners/bg-desktop.svg')]"
+        bg-[url('/hp/partners/bg-mobile.svg')] bg-cover bg-center
+        md:bg-[url('/hp/partners/bg-desktop.svg')]"
     >
       <h2 className="text-[#072723] text-center text-2xl sm:text-3xl md:text-4xl font-bold mb-8">
         Partners
@@ -41,42 +41,42 @@ export default function PartnersSection() {
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         <PartnerBlock
           href="https://x.com/HyperSwapX"
-          imgSrc="/section-partners/hyperswap.svg"
+          imgSrc="/hp/partners/hyperswap.svg"
           alt="HyperSwap"
         />
         <PartnerBlock
           href="https://x.com/okto_web3"
-          imgSrc="/section-partners/okto.svg"
+          imgSrc="/hp/partners/okto.svg"
           alt="okto"
         />
         <PartnerBlock
           href="https://x.com/hl_fund"
-          imgSrc="/section-partners/hlfund.svg"
+          imgSrc="/hp/partners/hlfund.svg"
           alt="hl.fund"
         />
         <PartnerBlock
           href="https://x.com/CatCabal_hl"
-          imgSrc="/section-partners/catbal.svg"
+          imgSrc="/hp/partners/catbal.svg"
           alt="Catbal"
         />
         <PartnerBlock
           href="https://x.com/neko_hl"
-          imgSrc="/section-partners/neko.svg"
+          imgSrc="/hp/partners/neko.svg"
           alt="Neko"
         />
         <PartnerBlock
           href="https://x.com/HanaNetwork"
-          imgSrc="/section-partners/hana.svg"
+          imgSrc="/hp/partners/hana.svg"
           alt="hana"
         />
         <PartnerBlock
           href="https://x.com/liquidlaunchhl"
-          imgSrc="/section-partners/liquidlaunch.svg"
+          imgSrc="/hp/partners/liquidlaunch.svg"
           alt="LiquidLaunch"
         />
         <PartnerBlock
           href="https://x.com/pp_trading"
-          imgSrc="/section-partners/pocketpro.svg"
+          imgSrc="/hp/partners/pocketpro.svg"
           alt="POCKETPRO"
         />
       </div>
@@ -86,14 +86,14 @@ export default function PartnersSection() {
         <div className="w-full sm:w-[calc(50%-0.5rem)] md:w-[calc(25%-0.75rem)]">
           <PartnerBlock
             href="https://x.com/Looped_HYPE"
-            imgSrc="/section-partners/loopedhype.svg"
+            imgSrc="/hp/partners/loopedhype.svg"
             alt="loopedHYPE"
           />
         </div>
         <div className="w-full sm:w-[calc(50%-0.5rem)] md:w-[calc(25%-0.75rem)]">
           <PartnerBlock
             href="https://x.com/hyperlauncherAI"
-            imgSrc="/section-partners/hyperlauncher.svg"
+            imgSrc="/hp/partners/hyperlauncher.svg"
             alt="Hyperlauncher"
           />
         </div>
