@@ -3,7 +3,7 @@ import {
   Hero,
   JoinWithImages,
   NetworkWithImages,
-  Partners,
+  PartnersWithImages,
   Collab,
   Footer,
 } from "@/components/hpSections";
@@ -16,7 +16,7 @@ export default function Home() {
         <Hero />
         <JoinWithImages />
         <NetworkWithImages />
-        <Partners />
+        <PartnersWithImages />
         <Collab />
         <Footer />
       </main>
