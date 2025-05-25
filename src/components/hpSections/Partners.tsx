@@ -25,7 +25,7 @@ function PartnerBlock({ href, imgSrc, alt }: PartnerBlockProps) {
   );
 }
 
-export default function PartnersSection() {
+export default function Partners() {
   return (
     <section
       className="

@@ -1,6 +1,6 @@
 "use client";
 
-export default function CollabSection() {
+export default function Collab() {
   return (
     <section
       className="

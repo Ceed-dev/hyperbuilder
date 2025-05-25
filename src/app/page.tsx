@@ -1,10 +1,12 @@
 import NavBar from "@/components/NavBar";
-import Hero from "@/components/sections/Hero";
-import JoinSection from "@/components/sections/JoinSection";
-import NetworkSection from "@/components/sections/NetworkSection";
-import PartnersSection from "@/components/sections/PartnersSection";
-import CollabSection from "@/components/sections/CollabSection";
-import Footer from "@/components/sections/Footer";
+import {
+  Hero,
+  Join,
+  Network,
+  Partners,
+  Collab,
+  Footer,
+} from "@/components/hpSections";
 
 export default function Home() {
   return (
@@ -12,10 +14,10 @@ export default function Home() {
       <NavBar />
       <main className="bg-[#AEFFEB]">
         <Hero />
-        <JoinSection />
-        <NetworkSection />
-        <PartnersSection />
-        <CollabSection />
+        <Join />
+        <Network />
+        <Partners />
+        <Collab />
         <Footer />
       </main>
     </>

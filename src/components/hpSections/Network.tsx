@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 
-export default function NetworkSection() {
+export default function Network() {
   return (
     <section
       className="
