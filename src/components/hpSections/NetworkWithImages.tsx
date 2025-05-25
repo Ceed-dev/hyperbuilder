@@ -11,7 +11,7 @@ export default function NetworkWithImages() {
         md:bg-[url('/hp/network/bg-desktop.svg')]"
     >
       {/* Section Title */}
-      <div className="mb-8 text-[#072723] text-2xl sm:text-3xl md:text-4xl">
+      <div className="mb-8 text-[#072723] text-3xl sm:text-4xl md:text-5xl">
         <h2 className="font-bold">Our Network</h2>
         <p className="italic">So Far</p>
       </div>

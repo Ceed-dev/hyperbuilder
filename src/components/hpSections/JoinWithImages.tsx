@@ -11,7 +11,7 @@ export default function JoinWithImages() {
         md:bg-[url('/hp/join/bg-desktop.svg')]"
     >
       {/* Section Title */}
-      <div className="mb-8 text-[#072723] text-2xl sm:text-3xl md:text-4xl">
+      <div className="mb-8 text-[#072723] text-3xl sm:text-4xl md:text-5xl">
         <h2 className="font-bold">Join Hyperbuilder</h2>
         <p className="italic">If You&apos;re Looking For</p>
       </div>

@@ -36,7 +36,7 @@ export default function PartnersWithImages() {
         bg-[url('/hp/partners/bg-mobile.svg')] bg-cover bg-center
         md:bg-[url('/hp/partners/bg-desktop.svg')]"
     >
-      <h2 className="text-[#072723] text-center text-2xl sm:text-3xl md:text-4xl font-bold mb-8">
+      <h2 className="text-[#072723] text-center text-3xl sm:text-4xl md:text-5xl font-bold mb-8">
         Partners
       </h2>
 
