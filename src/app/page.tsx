@@ -2,7 +2,7 @@ import NavBar from "@/components/NavBar";
 import {
   Hero,
   JoinWithImages,
-  Network,
+  NetworkWithImages,
   Partners,
   Collab,
   Footer,
@@ -15,7 +15,7 @@ export default function Home() {
       <main className="bg-white p-3 space-y-5">
         <Hero />
         <JoinWithImages />
-        <Network />
+        <NetworkWithImages />
         <Partners />
         <Collab />
         <Footer />
