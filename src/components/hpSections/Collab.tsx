@@ -45,7 +45,7 @@ export default function Collab() {
           <p className="text-[30px] xl:text-[36px] font-[500] leading-none tracking-tighter">
             Join{" "}
             <a
-              href="https://discord.com/invite/DP2Ykkwxxf"
+              href="https://discord.gg/Ta9qBAgTW2"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:underline"

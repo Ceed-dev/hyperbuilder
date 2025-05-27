@@ -52,7 +52,7 @@ export default function Hero() {
 
         {/* Join Button */}
         <Link
-          href="https://discord.gg/DP2Ykkwxxf"
+          href="https://discord.gg/Ta9qBAgTW2"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 bg-[#072723] text-[#D1EFE8] px-6 py-3 rounded-full hover:bg-[#0C3A34] transition"
