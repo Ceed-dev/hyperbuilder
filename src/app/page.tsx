@@ -7,6 +7,7 @@ import {
   Collab,
   Footer,
 } from "@/components/hpSections";
+import BackToTopButton from "@/components/BackToTopButton";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Collab />
         <Footer />
       </main>
+      <BackToTopButton />
     </>
   );
 }
