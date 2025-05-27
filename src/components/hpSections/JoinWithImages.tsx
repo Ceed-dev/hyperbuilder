@@ -17,7 +17,7 @@ export default function JoinWithImages() {
       </div>
 
       {/* Grid Layout */}
-      <div className="grid grid-cols-1 md:grid-cols-3 md:grid-rows-2 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-[1.14fr_1fr_1fr] gap-4">
         {/* Card 1: left column, spans two rows */}
         <div className="md:row-span-2 order-1">
           {/* Mobile Image */}
@@ -64,7 +64,7 @@ export default function JoinWithImages() {
                 src={`/hp/join/cards/${num}-desktop.svg`}
                 alt={`Card ${num}`}
                 fill
-                className="object-cover rounded-2xl hidden md:block"
+                className="object-contain hidden md:block"
               />
             </div>
           );
