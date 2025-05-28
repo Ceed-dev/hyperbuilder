@@ -6,12 +6,12 @@ export default function Join() {
   return (
     <section
       className="
-        w-full min-h-[calc(100vh-80px)] px-5 md:px-20 py-12
+        w-full min-h-[calc(100vh-80px)] rounded-3xl px-5 md:px-20 py-12
         bg-[url('/hp/join/bg-mobile.svg')] bg-cover bg-center
         md:bg-[url('/hp/join/bg-desktop.svg')]"
     >
       {/* Section Title */}
-      <div className="mb-8 text-[#072723] text-2xl sm:text-3xl md:text-4xl">
+      <div className="mb-8 text-[#072723] text-3xl sm:text-4xl md:text-5xl">
         <h2 className="font-bold">Join Hyperbuilder</h2>
         <p className="italic">If You&apos;re Looking For</p>
       </div>
