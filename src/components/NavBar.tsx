@@ -46,7 +46,7 @@ export default function NavBar() {
             Resources
           </Link>
           <Link
-            href="https://hyperbuilder.web.app/"
+            href="https://network.hyperbuilder.co"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-gray-500"
@@ -100,7 +100,7 @@ export default function NavBar() {
               Resources
             </Link>
             <Link
-              href="https://hyperbuilder.web.app/"
+              href="https://network.hyperbuilder.co"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setIsMenuOpen(false)}
