@@ -23,7 +23,7 @@ export default function Footer() {
               <Image src="/icons/x-dark.svg" alt="X" width={24} height={24} />
             </a>
             <a
-              href="https://discord.gg/Ta9qBAgTW2"
+              href="https://discord.com/invite/DP2Ykkwxxf"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#D1EFE8] border border-black rounded-md p-2 transition transform hover:-translate-y-1 hover:shadow-lg duration-300"
