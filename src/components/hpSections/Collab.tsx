@@ -24,7 +24,7 @@ export default function Collab() {
               rel="noopener noreferrer"
               className="mx-1 hover:underline"
             >
-              @ellie_sol
+              ellie
             </a>
             &amp; <br />
             <a
