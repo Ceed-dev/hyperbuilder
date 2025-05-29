@@ -58,7 +58,7 @@ export default function NavBar() {
         {/* Right: CTA Button (Desktop) */}
         <div className="flex-1 hidden md:flex justify-end">
           <a
-            href="https://t.me/ellie_sol"
+            href="https://t.me/ellie_nfts"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#3FF8CB] text-black rounded-full px-4 py-2 hover:bg-[#2BC2A1]"
