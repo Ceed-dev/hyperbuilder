@@ -15,7 +15,7 @@ function PartnerBlock({ href, imgSrc, alt, wrapperClass }: PartnerBlockProps) {
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className={`transition transform hover:-translate-y-1 hover:shadow-lg duration-300 ${wrapperClass}`}
+      className={`transition transform hover:-translate-y-1 hover:shadow-xl duration-300 rounded-2xl ${wrapperClass}`}
     >
       <Image
         src={imgSrc}
