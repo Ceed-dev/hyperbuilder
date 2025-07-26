@@ -19,7 +19,7 @@ export default function Collab() {
           <p className="text-[30px] xl:text-[36px] font-[500] leading-none tracking-tighter">
             DM
             <a
-              href="https://t.me/ellie_nfts"
+              href="https://t.me/ellie_hype"
               target="_blank"
               rel="noopener noreferrer"
               className="mx-1 hover:underline"
