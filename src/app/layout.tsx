@@ -8,12 +8,25 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://hyperbuilder.co"),
   title: "Hyperbuilder",
   description: "Hyperbuilder",
   icons: {
     icon: "/simple-logo-hyperbuilder.svg",
   },
   robots: "all",
+  openGraph: {
+    title: "Hyperbuilder",
+    description: "Hyperbuilder",
+    url: "https://hyperbuilder.co",
+    siteName: "Hyperbuilder",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Hyperbuilder",
+    description: "Hyperbuilder",
+  },
 };
 
 export default function RootLayout({
