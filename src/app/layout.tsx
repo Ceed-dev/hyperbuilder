@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   icons: {
     icon: "/simple-logo-hyperbuilder.svg",
   },
+  robots: "all",
 };
 
 export default function RootLayout({
